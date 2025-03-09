@@ -4,6 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const newTabToggle = document.getElementById("newTabToggle");
   const removePaywallBtn = document.getElementById("removePaywall");
   const paywallBusterBtn = document.getElementById("paywallBuster");
+  const smryPaywallBtn = document.getElementById("smryPaywall");
   const archiveTodayBtn = document.getElementById("archiveToday");
   const archiveIsBtn = document.getElementById("archiveIs");
   const archivePhBtn = document.getElementById("archivePh");
@@ -264,6 +265,15 @@ Structure your response as follows:
       if (tabs && tabs[0] && tabs[0].url) {
         const currentUrl = encodeURIComponent(tabs[0].url);
         openLink(`https://paywallbuster.com/articles/?article=${currentUrl}`);
+      }
+    });
+  });
+
+  smryPaywallBtn.addEventListener("click", function () {
+    chrome.tabs.query({ active: true, currentWindow: true }, function (tabs) {
+      if (tabs && tabs[0] && tabs[0].url) {
+        const currentUrl = encodeURIComponent(tabs[0].url);
+        openLink(`https://www.smry.ai/proxy?url=${currentUrl}`);
       }
     });
   });
