@@ -12,6 +12,7 @@ More than just a paywall bypasser, this extension transforms how you consume onl
 
 - **Remove Paywall**: Uses removepaywall.com to bypass paywalls on news websites
 - **Paywall Buster**: Alternative method to access paywalled content
+- **Smry**: Leverages smry.ai proxy service to access paywalled articles seamlessly
 
 ### 🤖 AI-Powered Summaries (TLDR)
 
@@ -55,6 +56,8 @@ Check archived versions of the current page through multiple archive services:
 2. Click the extension icon in your browser toolbar
 3. Choose one of the available options:
    - Use "Remove Paywall" to bypass the paywall
+   - Use "Paywall Buster" as an alternative bypass method
+   - Use "Smry" to access content via the smry.ai proxy service
    - Use AI features to get a summary or analysis
    - Check archived versions of the page
 
