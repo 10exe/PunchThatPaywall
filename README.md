@@ -6,6 +6,10 @@ More than just a paywall bypasser, this extension transforms how you consume onl
 
 ![Punch that Paywall Logo](icons/icon128.png)
 
+## Screenshot
+
+![Punch that Paywall Screenshot](Screenshot.png)
+
 ## Features
 
 ### 🔓 Bypass Paywall
